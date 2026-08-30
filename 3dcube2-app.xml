@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/3.2">
+  <id>3dcube2</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>3dcube2</filename>
+  <description>Spinning cube. Spinning cube 2 basically.</description>
+<!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+  <name>3dcube2</name>
+<!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+  <copyright>Copyright (c) Mahmut Saglam 2026</copyright>
+  <initialWindow>
+    <content>3dcube2.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>auto</renderMode>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+    <autoOrients>false</autoOrients></initialWindow>
+  <icon/>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <android>
+    <manifestAdditions>
+      <![CDATA[<manifest>
+</manifest>]]>
+    </manifestAdditions>
+  </android>
+  <versionLabel>32</versionLabel>
+</application>
